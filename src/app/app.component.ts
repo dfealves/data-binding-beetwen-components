@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'lista-de-produtos';
+  produtos = [{
+    nome: 'Mochila Adidas',
+    descricao: 'Ideal para uso no dia a dia, a Mochila Adidas oferece comodidade para você.'
+  }];
 }
